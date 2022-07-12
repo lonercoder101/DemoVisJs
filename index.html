@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+
+          <!-- Linking bootstrap  -->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
+
+          <!-- Font Awesome 5 -->
+          <script src="https://kit.fontawesome.com/e15aefb85c.js" crossorigin="anonymous"></script>
+
+        <!-- Linking vis.js (https://visjs.org/) Network for graph  -->
+        <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+        <!-- CSS File  -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Random Graph generator in JS -->
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <!--  Nav Bar with random PNG image at top left and text at top right,
+        inline block is aligned at top -->
+        <nav class="navbar navbar-light " style="font-size: 30px; font-family: fangsong; background-color: rgb(85, 135, 188);">
+            <img src="https://4.bp.blogspot.com/-e8hRuEJte-g/W2qJ98TIFrI/AAAAAAAAKR4/oIluXwEqZtUAir5O0KcTdHWWGAomVYjqACLcBGAs/s320/graph.png" width="124" height="80"
+                 class="d-inline-block align-bottom" alt="">
+            Vis.js Example
+        </nav>
+        <div id="container">
+    </div>
+    <div>
+        <br>
+        <button type="button" class="btn btn-warning" id="generate-graph">Generate New Graph</button>
+    </div>
+    </body>
+</html>
