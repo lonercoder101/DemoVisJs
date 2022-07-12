@@ -4,7 +4,7 @@ onload = function () {
 
     // Creating a network
     const container = document.getElementById('container');
-    const genNew = document.getElementById('generate-graph');
+    const genNew = document.getElementById('generate-graph');https://github.com/lonercoder101/DemoVisJs/blob/main/script.js
 
     // initialise graph options
     /* The settings for tweaking edges/nodes 
@@ -69,11 +69,11 @@ onload = function () {
         };
         return data;
     }
-    window.addEventListener("load", function(){
-        let data = createData();
-        network.setData(data);
-        //everything is fully loaded, don't use me if you can use DOMContentLoaded
-    });
+//     window.addEventListener("load", function(){
+//         let data = createData();
+//         network.setData(data);
+//         //everything is fully loaded, don't use me if you can use DOMContentLoaded
+//     });
     genNew.onclick = function () {
         // Creating and setting data to network
         let data = createData();
